@@ -1,0 +1,2 @@
+# huggingface2arxiv
+huggingfaceのpaperページをarxivにリダイレクトする拡張機能
