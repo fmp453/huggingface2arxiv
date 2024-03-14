@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "redirected arxiv from huggingface",
+    "description": "When the hugging face paper page is loaded, the user is redirected to the corresponding arxiv page.",
+    "version": "0.1.0",
+    "content_scripts": [
+      {
+        "js": [
+          "content.js"
+        ],
+        "matches": [
+          "https://huggingface.co/papers/*"
+        ]
+      }
+    ]
+  }
+  
